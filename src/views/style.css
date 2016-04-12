@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+html {
+    font-family: "Helvetica", sans-serif;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p a {
+    text-decoration: underline;
+    color: blue;
+}
+
+[type="button"] {
+    cursor: pointer;
+}
+
+textarea,
+label {
+    display: block;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
